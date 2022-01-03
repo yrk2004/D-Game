@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">DE - GAME</string>
+    <string name="login">LOGIN</string>
+    <string name="welcome_to">WELCOME TO</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="loginbutton">LOGIN!!</string>
+    <string name="no_account_sign_up">NO ACCOUNT? SIGN UP!!</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="have_an_account_log_in">Have an account? Log in!</string>
+    <string name="sign_uptext">Sign up</string>
+    <string name="email">Email</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="select_your_games">Select your games</string>
+    <string name="proceed">Proceed</string>
+    <string name="age">Age</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="next">Next</string>
+    <string name="todo">TODO</string>
+    <string name="nameD">Name</string>
+    <string name="save">Save</string>
+    <string name="terms_and_conditions">Terms and conditions</string>
+    <string name="title_activity_main17">Main17Activity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="terms_and_conditions_this_app_should_not_be_replicated_in_any_form_by_a_user_user_information_will_be_stored_in_this_app_including_name_age_and_email_user_data_will_be_stored_in_this_app_such_as_the_runtime_of_other_apps_administrators_reserve_the_right_to_terminate_accounts_upon_misuse_of_this_app_and_its_features_such_as_the_chatroom_agreeing_to_these_terms_and_conditions_means_that_you_agree_to_your_user_data_being_shared_with_other_services">Terms and Conditions: • This app should not be replicated in any form by a user. • User information will be stored in this app, including name, age and email. • User data will be stored in this app, such as the runtime of other apps. • Administrators reserve the right to terminate accounts upon misuse of this app and its features, such as the chatroom. • Agreeing to these terms and conditions means that you agree to your user data being shared with other services.</string>
+    <string name="welcome_to_de_game">WELCOME TO DE-GAME</string>
+    <string name="title_activity_main18">Main18Activity</string>
+    <string name="title_activity_main19">Main19Activity</string>
+    <string name="title_activity_main20">Main20Activity</string>
+    <string name="action_settings" />
+    <string name="get_stats">Get Stats</string>
+    <string name="_447414740112">+447414740112</string>
+</resources>

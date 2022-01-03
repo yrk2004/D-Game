@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#add8e6">
+
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="15dp"
+        android:background="#61A8DF"
+        android:gravity="center"
+        android:text="DE-GAME"
+        android:textColor="#ECF5F8"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/usage_tv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        style="@android:style/Widget.Holo.Light.Spinner"
+        android:id="@+id/usage_tv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="58dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginBottom="2dp"
+        android:background="@drawable/border_spinner"
+
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/listViewForUsage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appName" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/listViewForUsage"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        android:layout_marginStart="59dp"
+        android:layout_marginEnd="59dp"
+        android:layout_marginBottom="66dp"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/addApps"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/usage_tv"
+        tools:context=".AppUsageListActivity">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <Button
+        android:id="@+id/addApps"
+        android:layout_width="153dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/border"
+        android:backgroundTint="#9197B8"
+        android:onClick="addApplications"
+        android:text="Add Apps"
+        android:textAllCaps="false"
+        android:textSize="25sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/home"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/listViewForUsage"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/home"
+        android:layout_width="153dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="32dp"
+        android:layout_marginEnd="46dp"
+        android:background="@drawable/border"
+        android:backgroundTint="#9197B8"
+        android:onClick="logout"
+        android:text="Logout"
+        android:textSize="25sp"
+        android:visibility="visible"
+        app:layout_constraintBaseline_toBaselineOf="@+id/addApps"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/addApps"
+        tools:visibility="visible" />
+</androidx.constraintlayout.widget.ConstraintLayout>
